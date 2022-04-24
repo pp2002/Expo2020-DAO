@@ -1,11 +1,12 @@
-# buildspace x thirdweb - Build your own DAO with just Javascript
+# Expo2020 DAO - Built using Javascript only.
 
 ### **Welcome 👋**
-To get started with this course, clone this repo and follow these commands:
+How to run the project?
 
-1. Run `npm install` at the root of your directory
-2. Run `npm start` to start the project
-3. Start coding!
-
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/COb520aae3-7925-42f4-a5e7-eaf718933766) and link your Discord account so you can get access to helpful channels and your instructor!
+1. Fork the repository
+2. Run `npm install` at the root of your directory
+3. Download and set up a Metamask wallet. Choose the Rinkeby Test Network. Use https://faucets.chain.link/rinkeby to request for fake ETH for the project.
+4. Create an account with https://www.alchemy.com/. This will be required to facilitate the contract creation on the testnet.
+5. Create a .env file and add your public wallet address, private key of your wallet and the alchemy API URL. (Refer to this video to understand how the API key can be retireved from Alchemy -> https://www.loom.com/share/21aa1d64ea634c0c9da8fc5faaf24283)
+6. Run all scripts mentioned in the 'scripts' folder. Make sure to inspect each script and change the wallet address, token address and contract address wherever required. 
+7. Once all of this is done, you should have your own DAO up and running! :)
